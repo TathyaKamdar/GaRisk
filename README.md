@@ -40,15 +40,8 @@ GaRisk models these decisions quantitatively — showing the cost of doing nothi
 GaRisk/
 │
 ├── data/
-│   ├── raw/                        # Downloaded source data
-│   │   ├── usgs_gallium_2024.csv   # USGS MCS 2024 gallium data
-│   │   ├── usgs_gallium_2025.csv   # USGS MCS 2025 gallium data
-│   │   ├── un_comtrade_hs280530.csv # UN Comtrade import volumes
-│   │   └── usitc_gallium_brief.csv # USITC price and trade data
-│   └── processed/
-│       ├── baseline_model.csv      # Pre-ban sourcing baseline
-│       ├── supplier_params.csv     # Lead time, cost, capacity by supplier
-│       └── demand_profile.csv      # Monthly US demand by end market
+│   ├── raw/          # Source data files
+│   └── processed/    # Cleaned and transformed data
 │
 ├── modules/
 │   ├── 01_baseline/
