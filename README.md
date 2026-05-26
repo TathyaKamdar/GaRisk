@@ -109,6 +109,7 @@ Linear programming model that finds the optimal sourcing and inventory strategy.
 - Q_j,t — quantity ordered from supplier j in month t
 - I_t — inventory level at end of month t
 - S_t — shortage quantity in month t
+- T_t - total disruption cost over a fiscal year
 
 **Tool:** PuLP (Python LP library)
 
